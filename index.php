@@ -161,14 +161,14 @@
             <section class="resume-section" id="contact">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Contact</h2>
-                    <form action="" method="post">
+                    <form action="data.php" method="post">
                         <label for="">Name</label><br>
                         <input type="text" name="uname"><br>
                         <label for="">Email</label><br>
                         <input type="email" name="email"><br>
                         <label for="">Phone Number</label><br>
                         <input type="text" name="phone" onkeypress="return onlyNumberKey(event)"><br>
-                        <!-- <input type="submit" class="btn mt-3 bg-primary text-white w-25" value="SEND"/> -->
+                        <input type="submit" class="btn mt-3 bg-primary text-white w-25" value="SEND"/>
                     </form>
                 </div>
             </section>
